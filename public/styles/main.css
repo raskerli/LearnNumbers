@@ -1,0 +1,43 @@
+/* font */
+body {
+  font-family: Georgia, serif;
+}
+/* header */
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: #e7d4b5;
+}
+.header a {
+  text-decoration: none;
+  color: #a0937d;
+}
+.header a:hover {
+  color: #b6c7aa;
+}
+/* main */
+main {
+  display: flex;
+  background-color: #f6e6cb;
+  height: 90vh;
+  justify-content: space-around;
+  align-items: center;
+  color: #b6c7aa;
+}
+main .form,
+main .response-area {
+  width: 438px;
+  background-color: #e7d4b5;
+  color: #a0937d;
+  padding: 20px;
+}
+main .form form {
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+}
+/* footer */
+footer {
+  color: #a0937d;
+  background-color: #e7d4b5;
+}
